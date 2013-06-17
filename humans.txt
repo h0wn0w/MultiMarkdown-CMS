@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <team member> -- <role> -- <twitter, adn, etc>
+
+# THANKS
+
+    Fletcher Penney
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    [MultiMarkdown Content Management System](http://fletcherpenney.net/multimarkdown/cms/)
+    [The Goldilocks Approach](http://goldilocksapproach.com)
