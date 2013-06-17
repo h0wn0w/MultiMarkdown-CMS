@@ -18,6 +18,9 @@
 */
 
 @import "layout.css";		/* Import layout code */
+@import "global.css"; 
+/* this is just for color themes, etc., that I messed with */
+@import "custom.css";
 
 /* Default Settings */
 

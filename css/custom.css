@@ -1,0 +1,129 @@
+/*
+Project-specific customizations 
+*/
+
+/* Elements
+======================================== */
+
+nav > a {
+  padding: 0px 10px;
+  font-size: 1.5em;
+}
+
+/* Classes
+======================================== */
+
+[class^="icon-"], [class*=" icon-"] {
+  padding: 10px 10px;
+}
+
+.hid {
+  /*visibility: hidden;*/
+  display: none;
+}
+
+.lite {
+  opacity: 0.5;
+}
+
+.maintitle {
+  font-size: 2.5em;
+}
+
+.red {
+  color: red;
+}
+
+.select {
+  border: 1px solid;
+  border-color: #ffbf00;
+}
+
+.slideact {
+  width: 40px;
+  height: 50px;
+  float: left;
+  position: relative;
+  background-color: #000;
+}
+
+@media (max-width: 47.938em) {
+  body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* Yellow Theme 
+===================================== */
+
+.header-yellow {
+  background: #ffe793;
+  border-bottom: 10px solid #ffde7d;
+  color: #2e2d2b;
+}
+
+.footer-yellow {
+  background: #1f1f1f;
+  border-top: 20px solid #2e2d2b;
+  color: #eee;
+}
+
+/* Red Theme 
+===================================== */
+
+.header-red {
+  background: #a72218;
+  border-bottom: 10px solid #d32114;
+}
+
+.header-red > nav > a {
+  color: #eaeaea;  
+}
+
+.footer-red {
+  background: #1f1f1f;
+  border-top: 20px solid #c9c6c5;
+  color: #eee;
+}
+
+/* Green Theme
+===================================== */
+
+.header-green {
+  background: #43b800;
+  border-bottom: 10px solid #9dc400;
+  color: #5c524b;
+}
+
+.footer-green {
+  background: #5c524b;
+  border-top: 10px solid #6b6255;
+}
+
+/* Default Theme
+===================================== */
+
+.header-default {
+  /*border-bottom: 10px solid #d32114;*/
+  border-bottom: 10px solid #871d0d;
+  color: #2e2d2b;
+}
+
+.footer-default {
+  border-top: 10px solid #c9c6c5;
+}
+
+/* IDs
+========================================*/
+
+#mainpage {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  /*font-size: 24px;*/
+}
+
+#themes li {
+  list-style: none;
+}
+
